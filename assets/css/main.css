@@ -739,8 +739,18 @@ section {
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
+
+.destination{
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
 .clients {
   padding: 40px 0;
+  
 }
 
 .clients .swiper {
