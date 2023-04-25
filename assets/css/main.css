@@ -735,6 +735,22 @@ section {
     opacity: 0;
   }
 }
+/* ------------------
+Mentors section
+------------------ */
+.custom-mentors-flexbox{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.custom-mentors-flexbox > div {
+  margin-left: 20px;
+  max-width: 150px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Clients Section
