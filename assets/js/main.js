@@ -294,11 +294,11 @@ document.addEventListener('DOMContentLoaded', () => {
    * Services Section - Custom Code
    */
   document.querySelectorAll('.service-item .readmore').forEach((ele) => { // Select all readmore buttons
-    ele.addEventListener('click', () => {
+    ele.addEventListener('click', (e) => {
       if(document.querySelector('.expanded-services')){
         document.querySelector('.expanded-services').classList.remove('expanded-services');
       }
-      this.parentElement.parentElement.classList.add('expanded-services');
+      e.target.parentElement.parentElement.classList.add('expanded-services');
     })
   })
 
