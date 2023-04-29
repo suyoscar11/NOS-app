@@ -962,7 +962,12 @@ Mentors section
   padding: 60px 0;
 }
 
+
 /* Custom CSS */
+.expanded-services-container > :not(.expanded-services) > .services-text {
+  display: none;
+}
+
 .expanded-services{
   width: 100%;
   order: -1;

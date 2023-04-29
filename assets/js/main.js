@@ -299,6 +299,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.expanded-services').classList.remove('expanded-services');
       }
       e.target.parentElement.parentElement.classList.add('expanded-services');
+     
+      if(!document.querySelector('.expanded-services-container')){
+        e.target.parentElement.parentElement.parentElement.classList.add('expanded-services-container');
+      }
     })
   })
 
