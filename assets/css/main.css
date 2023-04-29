@@ -964,7 +964,7 @@ Mentors section
 
 
 /* Custom CSS */
-.expanded-services-container > :not(.expanded-services) > .services-text {
+.expanded-services-container > :not(.expanded-services) > .service-item > .services-text {
   display: none;
 }
 
