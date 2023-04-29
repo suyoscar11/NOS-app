@@ -970,12 +970,15 @@ Mentors section
 
 .expanded-services{
   width: 100%;
-  order: -1;
+  /* order: -1; */
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+.services-text {
+  display: block;
 }
 .expanded-services .readmore{
   display: none !important;
@@ -1054,7 +1057,7 @@ Mentors section
 
 .services .service-item .readmore {
   margin-top: 15px;
-  display: inline-block;
+  display: block;
   color: var(--color-primary);
 }
 
