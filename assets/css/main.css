@@ -965,6 +965,12 @@ Mentors section
 /* Custom CSS */
 .expanded-services{
   width: 100%;
+  order: -1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 .expanded-services .readmore{
   display: none !important;
@@ -981,6 +987,12 @@ Mentors section
 .services-text-dots, .services-text-initial{
   display:inline;
 }
+@media (max-width: 980px) {
+  .expanded-services {
+    order: inherit;
+  }
+}
+
 /* End Custom CSS */
 .services .service-item {
   padding: 40px;
