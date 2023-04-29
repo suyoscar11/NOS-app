@@ -290,4 +290,10 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+  /***
+   * Services Section Readmore feature 
+   */
+  
+  document.querySelectorAll('')
+
 });

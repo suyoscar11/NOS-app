@@ -962,6 +962,26 @@ Mentors section
   padding: 60px 0;
 }
 
+/* Custom CSS */
+.expanded-services{
+  width: 100%;
+}
+.expanded-services .readmore{
+  display: none;
+}
+.expanded-services .services-text-more{
+  display: block;
+}
+.expanded-services .services-text-dots{
+  display: none;
+}
+.services-text-more{
+  display: none;
+}
+.services-text-dots{
+  display:block;
+}
+/* End Custom CSS */
 .services .service-item {
   padding: 40px;
   background: #fff;
