@@ -967,10 +967,10 @@ Mentors section
   width: 100%;
 }
 .expanded-services .readmore{
-  display: none;
+  display: none !important;
 }
 .expanded-services .services-text-more{
-  display: block;
+  display: inline;
 }
 .expanded-services .services-text-dots{
   display: none;
@@ -978,8 +978,8 @@ Mentors section
 .services-text-more{
   display: none;
 }
-.services-text-dots{
-  display:block;
+.services-text-dots, .services-text-initial{
+  display:inline;
 }
 /* End Custom CSS */
 .services .service-item {
