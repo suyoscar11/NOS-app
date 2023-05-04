@@ -293,17 +293,17 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Services Section - Custom Code
    */
-  document.querySelectorAll('.service-item .readmore').forEach((ele) => { // Select all readmore buttons
-    ele.addEventListener('click', (e) => {
-      if(document.querySelector('.expanded-services')){
-        document.querySelector('.expanded-services').classList.remove('expanded-services');
-      }
-      e.target.parentElement.parentElement.classList.add('expanded-services');
+  // document.querySelectorAll('.service-item .readmore').forEach((ele) => { // Select all readmore buttons
+  //   ele.addEventListener('click', (e) => {
+  //     if(document.querySelector('.expanded-services')){
+  //       document.querySelector('.expanded-services').classList.remove('expanded-services');
+  //     }
+  //     e.target.parentElement.parentElement.classList.add('expanded-services');
      
-      if(!document.querySelector('.expanded-services-container')){
-        e.target.parentElement.parentElement.parentElement.classList.add('expanded-services-container');
-      }
-    })
-  })
+  //     if(!document.querySelector('.expanded-services-container')){
+  //       e.target.parentElement.parentElement.parentElement.classList.add('expanded-services-container');
+  //     }
+  //   })
+  // })
 
 });
