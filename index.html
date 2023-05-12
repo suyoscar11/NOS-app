@@ -9,6 +9,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -277,73 +278,75 @@
         <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item  position-relative">
+            <div class="service-item " data-bs-toggle="modal" data-bs-target="#essayReview">
               <div class="icon">
                 <i class="bi bi-activity"></i>
               </div>
               <h3>Essay Review</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+              
+             
+              <a class="readmore stretched-link"> Read Description<i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative"  data-bs-toggle="modal" data-bs-target="#extraCurricularActivities">
               <div class="icon">
                 <i class="bi bi-broadcast"></i>
               </div>
               <h3>Extra Curricular Activities Tips</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+             
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative"  data-bs-toggle="modal" data-bs-target="#LOR">
               <div class="icon">
                 <i class="bi bi-easel"></i>
               </div>
               <h3>Letter of Recommendations Assistance</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+             
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative"  data-bs-toggle="modal" data-bs-target="#SOP">
               <div class="icon">
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <h3>Statement of Purpose Writing</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+             
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative"  data-bs-toggle="modal" data-bs-target="#US">
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
               <h3>Package: Whole US Application</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+             
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
+            <div class="service-item position-relative"  data-bs-toggle="modal" data-bs-target="#Australia">
               <div class="icon">
                 <i class="bi bi-chat-square-text"></i>
               </div>
               <h3>Package: Whole Australia Application</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+             
+              <a class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
         </div>
 
+        
       </div>
     </section><!-- End Our Services Section -->
 
@@ -877,7 +880,8 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form target="transFrame" action="https://contactformservice.azurewebsites.net/api/myhttptrigger" method="post" role="form" class="php-email-form">
+              <iframe style="display:none;" name="transFrame" id="transFrame"></iframe>    
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -978,6 +982,88 @@
 
   </footer><!-- End Footer -->
   <!-- End Footer -->
+
+  <!-- Modals -->
+  <div class="modal fade" id="essayReview" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Essay Review</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you looking for help with your common app and scholarship essays? Look no further! We're here to brainstorm with you, edit your work, and help you finalise those essays. And don't worry, we won't just leave you to fend for yourself! We'll have plenty of follow-up meetings to make sure you're on the right track, and there will be assignments to keep you on your toes. So let's get started and make those essays shine!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="extraCurricularActivities" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Extra Curricular Activities</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Ah, the dreaded Common App. You've got your grades in order, and your essay's polished to a shine, but what about those extracurriculars? Don't sweat it- we've got you covered. For the 6-8 months leading up to your admission, we've scoured the interwebs to find you the best possible ECAs to suit your interests and help you stand out in a crowded application pool. With our help, you'll be able to shape and express your extracurriculars in a way that's unique to you and showcases everything you have to offer. So go ahead, put that pen down and relax. We'll take care of the hard stuff for you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="LOR" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you looking for help with your common app and scholarship essays? Look no further! We're here to brainstorm with you, edit your work, and help you finalise those essays. And don't worry, we won't just leave you to fend for yourself! We'll have plenty of follow-up meetings to make sure you're on the right track, and there will be assignments to keep you on your toes. So let's get started and make those essays shine!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="SOP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Supplement Writing</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you feeling overwhelmed by the thought of writing supplements for your college? Don't worry, we've got you covered! Our team of experts will brainstorm with you to come up with great ideas for your supplements. And once you have your initial drafts, we'll help you edit them to perfection. Plus, we'll even sit in on follow-up meetings to ensure everything is on track. And when it comes time to finalise those supplements, we'll be there to guide you every step of the way. Trust us, with our help, those 6-8 months will fly by.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="US" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you looking for help with your common app and scholarship essays? Look no further! We're here to brainstorm with you, edit your work, and help you finalise those essays. And don't worry, we won't just leave you to fend for yourself! We'll have plenty of follow-up meetings to make sure you're on the right track, and there will be assignments to keep you on your toes. So let's get started and make those essays shine!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="Australia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you looking for help with your common app and scholarship essays? Look no further! We're here to brainstorm with you, edit your work, and help you finalise those essays. And don't worry, we won't just leave you to fend for yourself! We'll have plenty of follow-up meetings to make sure you're on the right track, and there will be assignments to keep you on your toes. So let's get started and make those essays shine!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

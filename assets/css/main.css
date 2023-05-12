@@ -962,6 +962,76 @@ Mentors section
   padding: 60px 0;
 }
 
+
+/* Custom CSS */
+/* .expanded-services-container > :not(.expanded-services) .services-text {
+  display: none;
+}
+
+.expanded-services{
+  width: 100%;
+  order: -1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.services-text {
+  display: block;
+}
+.expanded-services .readmore{
+  display: none !important;
+}
+.expanded-services .services-text-more{
+  display: inline;
+}
+.expanded-services .services-text-dots{
+  display: none;
+}
+.services-text-more{
+  display: none;
+}
+.services-text-dots, .services-text-initial{
+  display:inline;
+} */
+/* @media (max-width: 980px) {
+  .expanded-services {
+    order: inherit;
+  }
+} */
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+/* End Custom CSS */
 .services .service-item {
   padding: 40px;
   background: #fff;
@@ -1017,7 +1087,7 @@ Mentors section
 
 .services .service-item .readmore {
   margin-top: 15px;
-  display: inline-block;
+  display: block;
   color: var(--color-primary);
 }
 
